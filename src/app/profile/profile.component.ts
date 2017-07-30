@@ -11,9 +11,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileComponent implements OnInit {
 
+  user= [];
+
+
   constructor(private _githubService: GithubService) {
     this._githubService.getUser().subscribe(user => {
       console.log(user);
+      this.user = user;
     });
    }
 
