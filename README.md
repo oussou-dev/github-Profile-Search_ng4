@@ -53,7 +53,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## ScreenShots
 
 * Search Page  :  
-![search_page](https://github.com/oussou-dev/ng4_Github-Profile-Search/blob/master/screenshot-1png)
+![search_page](https://github.com/oussou-dev/ng4_Github-Profile-Search/blob/master/screenshot-1.png)
 
-* Show Page  : 
-![search_page](https://github.com/oussou-dev/ng4_Github-Profile-Search/blob/master/screenshot-2png)
+* Page with Search  : 
+![search_page](https://github.com/oussou-dev/ng4_Github-Profile-Search/blob/master/screenshot-2.png)
