@@ -1,4 +1,26 @@
-# Ng4GithubSearch
+# ng4_Github-Profile-Search
+
+---
+> Simple Angular 4 app that searches Github user profiles and repositories.
+
+---
+## Version
+
+1.1 - Uses Angular 4.0.0
+
+## Installation
+
+This app requires Node.js v4+ to run.
+
+` $ npm install `
+
+## Usage
+
+This app requires Node.js v4+ to run.
+
+` $ npm start `
+
+---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.3.
 
