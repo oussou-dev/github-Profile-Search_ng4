@@ -8,6 +8,9 @@ import { ProfileComponent } from './profile/profile.component';
 
 import {HttpModule} from '@angular/http';
 
+import { FormsModule } from '@angular/forms';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +18,8 @@ import {HttpModule} from '@angular/http';
   ],
   imports: [
     BrowserModule,
-    HttpModule
+    HttpModule,
+    FormsModule
   ],
   providers: [GithubService],
   bootstrap: [AppComponent]

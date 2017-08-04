@@ -8,6 +8,9 @@ export class GithubService {
 
   private username: string;
 
+  private client_id = '45ac5d5a581037b59c4d'; 
+  private client_secret = '4f4ce76bdcb902c94ad2c3ce0b00db369201c4fe';
+;
 
   constructor(private _http: Http) {
     console.log('Github Service Ready ...');
@@ -15,15 +18,22 @@ export class GithubService {
   }
 
   getUser() {
-    return this._http.get('http://api.github.com/users/' + this.username)
+    // return this._http.get('http://api.github.com/users/' + this.username)
+    return this._http.get('http://api.github.com/users/' + this.username + 
+    						'?client_id=' + this.client_id + '&client_secret=' + this.client_secret)
                 .map(res => res.json());
   }
 
   getRepos() {
-    return this._http.get('http://api.github.com/users/' + this.username + '/repos')
+    // return this._http.get('http://api.github.com/users/' + this.username + '/repos')
+    return this._http.get('http://api.github.com/users/' + this.username + '/repos?client_id=' + 
+    						this.client_id + '&client_secret=' + this.client_secret)
                 .map(res => res.json());
   }
 
 
+  updateUser(username:string) {
+    this.username = username;
+  }
 
 }
