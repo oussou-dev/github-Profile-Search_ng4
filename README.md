@@ -1,4 +1,4 @@
-# ng4_Github-Profile-Search
+# Github Profile Search
 
 ---
 > Simple Angular 4 app that searches Github user profiles and repositories.
